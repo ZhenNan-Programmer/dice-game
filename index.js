@@ -77,6 +77,9 @@ function rollDice2() {
 }
 
 function playTheGame() {
+  const bgMusic = document.querySelector("#audio");
+  bgMusic.play();
+  bgMusic.playbackRate = 0.8;
   const dice1 = rollDice1();
   const dice2 = rollDice2();
 
