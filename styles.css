@@ -9,7 +9,7 @@
   display: inline-block;
 }
 
-.btn {
+.btnRollDice {
   margin: 5% auto;
   padding: 10px;
   font-size: 2rem;
@@ -17,8 +17,19 @@
   color: #eeeeee;
   border-radius: 10px;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
+}
+
+.btnChangeLanguage {
+  margin: 5% auto;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #4ecca3;
+  color: #eeeeee;
+  border-radius: 10px;
+  position: absolute;
+  position: absolute;
+  left: 60%;
 }
 
 body {
